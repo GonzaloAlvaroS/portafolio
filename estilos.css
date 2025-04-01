@@ -478,9 +478,7 @@ p{
 
 
 @media (max-width: 430px) {
-    .home-todo{
-        min-height: 148vh;
-    }
+
     .home-content {
         align-items: center;
         text-align: center;
@@ -493,6 +491,17 @@ p{
     .home-content p {
         width: 100%;
         text-align: justify;
+    }
+}
+@media (min-width: 320px) and (max-width: 350px) {
+    .home-todo{
+        height: 148vh;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 430px) {
+    .home-todo{
+        height: 120vh;
     }
 }
 
