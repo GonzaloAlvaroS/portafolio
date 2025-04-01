@@ -2,11 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
 :root{
     font-size: 18px;
 }
-
 h1{
 	font-size: 3rem;
 	font-family: fuenteH1;
@@ -75,7 +73,6 @@ p{
     mix-blend-mode: screen; /* Hace que se mezcle con la imagen */
     pointer-events: none;
 }
-
 .home-todo{
     width: 100%;
     height: 100vh;
@@ -83,7 +80,6 @@ p{
     align-items: center;
     justify-content: center;
 }
-
 .home-content{
     width: 100%;
     padding: 30px;
@@ -94,17 +90,19 @@ p{
     gap: 20px;
     color: white;
 }
-
-.home-content h1,.home-content h5{
+.home-content h1,.home-content h5, .home-content p{
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
 }
-
 .home-content h1{
     font-size: 2.2rem;
     transition: 0.3s ease-in-out;
 }
 .home-content h5{
     color: rgb(231, 184, 27);
+}
+.home-content p{
+    width: 53%;
+    text-align: justify;
 }
 .home-content a{
     background-color: #6205B9;
@@ -117,19 +115,15 @@ p{
     text-decoration: none;
     transition: 0.5s ease-in;
 }
-
 .home-content a:hover{
     transform: scale(1.05) !important;
     background-color: #7f39c0;
     box-shadow: 0 0 10px rgba(128, 0, 128, 0.8);
 }
-
 .title-glow:hover {
     text-shadow: 0 0 10px rgba(240, 222, 120, 0.8);
 }
-
-
-.BG{
+.fondo-paginas{
     background: url(media/fondo2.jpg);
     background-size: cover;
 }
@@ -137,7 +131,6 @@ p{
     width: 100%;
     height: auto;
 }
-
 .section1{
     width: 97%;
     padding: 20px;
@@ -148,7 +141,6 @@ p{
     flex-direction: column;
     gap: 25px;
 }
-
 .section1-title{
     width: 100%;
     display: flex;
@@ -156,7 +148,6 @@ p{
     justify-content: center;
     text-align: center;
 }
-
 .section1-subtitle{
     width: 90%;
     display: flex;
@@ -164,11 +155,9 @@ p{
     justify-content: space-between;
     gap: 15px;
 }
-
 .section1-subtitle h2{
     white-space: nowrap;
 }
-
 .section1-content{
     width: 86%;
     display: flex;
@@ -176,7 +165,6 @@ p{
     justify-content: center;
     text-align: center;
 }
-
 .section2{
     width: 100%;
     margin-top: 30px;
@@ -187,14 +175,12 @@ p{
     flex-direction: column;
     gap: 25px;
 }
-
 .section2-all{
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 .section2-column1{
     width: 60%;
     height: 100%;
@@ -205,7 +191,6 @@ p{
     flex-direction: column;
     gap: 20px;
 }
-
 .section2-title{
     width: 100%;
     display: flex;
@@ -213,8 +198,6 @@ p{
     justify-content: start;
     gap: 20px;
 }
-
-
 .circulo-color{
     width: 25px;
     height: 25px;
@@ -222,7 +205,6 @@ p{
     background-color: black;
     border: none;
 }
-
 .section2-content{
     width: 100%;
     display: flex;
@@ -230,7 +212,6 @@ p{
     justify-content: center;
     text-align: justify;
 }
-
 .section2-buttons{
     width: 100%;
     display: flex;
@@ -238,19 +219,6 @@ p{
     justify-content: start;
     gap: 25px;
 }
-
-.boton-principal{
-    padding: 10px 20px;
-    color: white;
-    background-color: #6205B9;
-    text-align: center;
-    font-family: fuenteLink;
-    font-size: 20px;
-    border: none;
-    cursor: pointer;
-    text-decoration: none;
-}
-
 .section2-column2{
     width: 40%;
     height: 100%;
@@ -259,7 +227,6 @@ p{
     justify-content: center;
     flex-direction: column;
 }
-
 .section2-image {
     position: relative;
     width: 75%;
@@ -282,7 +249,6 @@ p{
     left: 0;
     opacity: 0;
 }
-
 .overlay-text {
     width: 100%;
     position: absolute;
@@ -303,28 +269,22 @@ p{
 .overlay-text p{
     margin-bottom: 8px;
 }
-
 .section2-image:hover .image-default {
     opacity: 0;
 }
-
 .section2-image:hover .image-hover {
     opacity: 1;
 }
-
 .section2-image:hover .overlay-text {
     opacity: 1;
 }
-
 .contenedor-circulos{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
 }
-
-
-.greenline{
+.linea{
     height: 5px;
     background-color: #cecece;
 	margin: 0 auto;
@@ -334,20 +294,17 @@ p{
     justify-content: center;
     color: white; 
 }
-
-#greenline2{
+#linea2{
     width: 100%;
     padding: 0;
     margin: 0;
 }
-
-#greenline1{
+#linea1{
     width: 100%;
     padding: 0;
     margin: 0;
 }
-
-.ponelcursor{
+.cursorpoint{
     width: 100%;
     display: flex;
     align-items: start;
@@ -355,12 +312,10 @@ p{
     opacity: 50%;
     gap: 5px;
 }
-
-.ponelcursor img{
+.cursorpoint img{
     width: 15px;
     height: auto;
 }
-
 #color1{
     background-color: #6205B9;
 }
@@ -406,42 +361,35 @@ p{
 #color15{
     background-color: #FFEFBC;
 }
-
 .fade-in {
     opacity: 0;
     animation: fadeInAnimation 1s ease-out forwards;
     animation-delay: 1.8s;
 }
-
-
-/* Title container styling in the business info section */
-.titleinfobusiness {
-    width: 100%; /* Full width */
-    display: flex; /* Flex layout */
-    align-items: start; /* Centers items vertically */
-    justify-content: start; /* Centers items horizontally */
-    position: relative; /* Relative position for animation */
-  }
-  
-  /* Main title styling */
-  .titleinfobusiness h1 {
+.titulo {
+    width: 100%; 
+    display: flex; 
+    align-items: start;
+    justify-content: start;
+    position: relative;
+}
+.titulo h1 {
     font-family: fuenteH1;
-    position: relative; /* Relative for animation positioning */
-  }
+    position: relative;
+}
   
-  /* Animated underline effect for the main title */
-  .titleinfobusiness h1:after {
-    width: 100%; /* Full width underline */
-    height: 100%; /* Full height */
-    top: 50%; /* Position */
+.titulo h1:after {
+    width: 100%;
+    height: 100%;
+    top: 50%;
     left: 0;
-    content: ""; /* No initial content */
-    line-height: 48px; /* Line height */
-    animation: abomination1 1.5s linear 1; /* Single animation */
-    animation-fill-mode: forwards; /* Keeps the last frame */
-  }
+    content: "";
+    line-height: 48px; 
+    animation: abomination1 1.5s linear 1;
+    animation-fill-mode: forwards;
+}
   
-  @keyframes abomination1 {
+    @keyframes abomination1 {
     0% { content: "G"; }
     5% { content: "Go"; }
     10% { content: "Gon"; }
@@ -484,5 +432,291 @@ p{
         opacity: 1;
     }
 }
+.boton-regreso{
+    width: 30%;
+    padding: 20px;
+    position: absolute;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+.boton-regreso img{
+    width: 22px;
+    height: auto;
+}
+.boton-principal{
+    padding: 10px 20px;
+    color: white;
+    background-color: #6205B9;
+    text-align: center;
+    font-family: fuenteLink;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+.botonregreso{
+    padding: 12px 12px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6205B9;
+    text-align: center;
+    font-family: fuenteLink;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.8s;
+}
+.botonregreso:hover{
+    transform: scale(1.05);
+    background-color: #905bc2;
+}
 
 
+
+@media (max-width: 430px) {
+    .home-todo{
+        min-height: 148vh;
+    }
+    .home-content {
+        align-items: center;
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .home-content h1{
+        font-size: 1.8rem;
+    }
+    .home-content p {
+        width: 100%;
+        text-align: justify;
+    }
+}
+
+@media (min-width: 540px) and (max-width: 850px) {
+    .home-todo{
+        min-height: 120vh;
+    }
+    .home-content {
+        align-items: center;
+        text-align: center;
+    }
+    .titulo{
+        align-items: center;
+        justify-content: center;
+    }
+    .home-content p {
+        width: 70%;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .home-todo{
+        min-height: 100vh;
+    }
+    .home-content p {
+        width: 58%;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 1920px) {
+    .home-todo{
+        min-height: 100vh;
+    }
+    .home-content h1{
+        font-size: 3rem;
+    }
+    .home-content h5{
+        font-size: 2rem;
+    }
+    .home-content p {
+        width: 58%;
+        font-size: 1.5rem;
+    }
+    .boton-principal{
+        padding: 20px 30px !important;
+        font-size: 1.3rem !important;
+    }
+}
+
+
+
+@media (max-width: 430px) {
+    .section1{
+        width: 100%;
+        padding-top: 0;
+        box-sizing: border-box;
+    }
+    .fondo-paginas{
+        width: 100%;
+    }
+    .contenedor-todo {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .section1-content {
+        width: 100%;
+        text-align: justify;
+        text-align-last: center;
+    }
+    .section1-title h1{
+        font-size: 2.2rem;
+    }
+    .boton-regreso{
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        box-sizing: border-box;
+        position: relative;
+    }
+}
+
+@media (min-width: 540px) and (max-width: 850px) {
+    .contenedor-todo {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .section1-content {
+        width: 90%;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .contenedor-todo {
+        max-width: 85%;
+        margin: 0 auto;
+    }
+    .section1 {
+        width: 90%;
+    }
+    .section1-content {
+        width: 80%;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 1920px) {
+    .contenedor-todo {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .section1 {
+        width: 85%;
+    }
+    .section1-content {
+        width: 100%;
+    }
+    .section1-content p{
+        font-size: 1.4rem;
+    }
+    .section1-title h1{
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 430px) {
+    .section2-all {
+        flex-direction: column;
+        align-items: center;
+    }
+    .section2-column1, .section2-column2 {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 0 20px;
+    }
+    .section2-title{
+        flex-direction: column;
+        text-align: center;
+    }
+    .section2-content p{
+        text-align-last: center;
+    }
+    .section2-buttons {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+    .section2-image {
+        width: 100%;
+    }
+    .cursorpoint{
+        align-items: center;
+        justify-content: center;
+    }
+    .overlay-text p{
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 540px) and (max-width: 850px) {
+    .section2-all {
+        flex-direction: column;
+        align-items: center;
+    }
+    .section2-column1, .section2-column2 {
+        width: 90%;
+    }
+    .section2-buttons {
+        flex-direction: column;
+        margin-bottom: 25px;
+    }
+    .section2-image {
+        width: 80%;
+    }
+    .overlay-text h6{
+        font-size: 24px;
+    }
+    .overlay-text p{
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px), (min-width: 1440px) and (max-width: 1920px) {
+    .section2-all {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .section2-column1 {
+        width: 60%;
+    }
+    .section2-column2 {
+        width: 40%;
+    }
+    .section2-image {
+        width: 90%;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 1920px) {
+    .section2-all {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .section2-column1 {
+        width: 60%;
+    }
+    .section2-column2 {
+        width: 40%;
+    }
+    .section2-image {
+        width: 90%;
+    }
+    .section2-title h3{
+        font-size: 35px;
+    }
+    .section2-content p{
+        font-size: 22px;
+    }
+    .overlay-text h6{
+        font-size: 30px;
+    }
+    .overlay-text p{
+        font-size: 24px;
+    }
+    .cursorpoint p{
+        font-size: 20px;
+    }
+}
